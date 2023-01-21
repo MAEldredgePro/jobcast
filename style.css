@@ -1,11 +1,35 @@
-body {
-    background-color: #ebedee;
-}
-
 .slime-green {
     color: #01c698;
 }
 
-div, span {
-    border: 1px solid black
+div,
+span {
+    border: 1px solid black;
+}
+
+body {
+    margin: auto;
+    display: flex;
+}
+
+.page-border {
+    border: 0px;
+
+    margin: auto;
+    background-color: #ebedee;
+}
+
+.page {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: white;
+}
+
+.row2-find-job,
+.row3-prod-perf,
+.r3p2-stats,
+.row4-easy-step {
+    display: flex;
 }
