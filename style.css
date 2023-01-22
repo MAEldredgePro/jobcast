@@ -2,8 +2,7 @@
     color: #01c698;
 }
 
-div,
-span {
+.border {
     border: 1px solid black;
 }
 
@@ -12,8 +11,11 @@ body {
     display: flex;
 }
 
-.page-border {
-    border: 0px;
+.page-mat {
+    width: 644px;
+    
+    /* border: 0px; */
+
 
     margin: auto;
     background-color: #ebedee;
