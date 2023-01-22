@@ -16,8 +16,37 @@ body {
 }
 
 .page {
-
     background-color: white;
     width: 1236px;
     height: 1431px;
+}
+
+.header {
+    height: 85px;
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-get-started {
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-button {
+    width: 115px;
+    height: 42px;
+}
+
+hr.header-split-line {
+    margin: 0px;
 }
