@@ -1,22 +1,18 @@
-.border {
-    border: 1px solid black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
+    font-family: 'Inter', sans-serif;
     margin: 0px;
     padding: 50px;
     display: flex;
     justify-content: center;
-    background-color: white;
-}
-
-.mat {
-    background-color: #eceef0;
-    padding: 105px 111px;
 }
 
 .page {
-    background-color: white;
+    border-color: #eceef0;
+    border-width: 105px 111px;
+    border-style: solid;
+
     width: 1236px;
     height: 1431px;
 }
