@@ -43,6 +43,10 @@ nav {
     height: 42px;
 }
 
+.topic {
+    display: flex;
+}
+
 hr.header-split-line {
     margin: 0px;
 }
